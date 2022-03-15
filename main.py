@@ -16,6 +16,8 @@ starter_encouragements = [
     "Cheer up!", "Hang in there.", "You are a great person / bot!"
 ]
 
+cool_words = ["happy", "kind", "cheer", "great", "beautiful"]
+
 if "responding" not in db.keys():
     db["responding"] = True
 
@@ -65,6 +67,8 @@ async def on_message(message):
             options = options + db["encouragements"]
 
         if any(word in msg for word in sad_words):
+            await message.channel.send(random.choice(options))
+        if any(word in msg for word in cool_words):
             await message.channel.send(random.choice(options))
 
     if msg.startswith("$new"):
