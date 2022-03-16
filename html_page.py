@@ -1,1 +1,0 @@
-f = open('main.html','w')

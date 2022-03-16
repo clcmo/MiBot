@@ -4,12 +4,9 @@ import webbrowser
 
 app = Flask('')
 
-@app.route('/public')
+@app.route('/')
 def home():
-    f = open('main.html','w')
-    message = "Hello"
-    f.write(message)
-    return f
+    return "Hello, It Works!"
 
 def run():
   app.run(host='0.0.0.0',port=8080)
