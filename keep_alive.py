@@ -1,11 +1,15 @@
 from flask import Flask
 from threading import Thread
+import webbrowser
 
 app = Flask('')
 
-@app.route('/')
+@app.route('/public')
 def home():
-    return "Hello. I am alive!"
+    f = open('main.html','w')
+    message = "Hello"
+    f.write(message)
+    return f
 
 def run():
   app.run(host='0.0.0.0',port=8080)
