@@ -1,12 +1,12 @@
-# Insert Title
+# MiBot
 
-[![GitHub license](https://img.shields.io/github/license/clcmo/web?style=for-the-badge)](https://github.com/clcmo/web)
-[![GitHub stars](https://img.shields.io/github/stars/clcmo/web?style=for-the-badge)](https://github.com/clcmo/web/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/clcmo/web?style=for-the-badge)](https://github.com/clcmo/web/network)
-[![GitHub issues](https://img.shields.io/github/issues/clcmo/web?style=for-the-badge)](https://github.com/clcmo/web/issues)
+[![GitHub license](https://img.shields.io/github/license/clcmo/MiBot?style=for-the-badge)](https://github.com/clcmo/MiBot)
+[![GitHub stars](https://img.shields.io/github/stars/clcmo/MiBot?style=for-the-badge)](https://github.com/clcmo/MiBot/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/clcmo/MiBot?style=for-the-badge)](https://github.com/clcmo/MiBot/network)
+[![GitHub issues](https://img.shields.io/github/issues/clcmo/MiBot?style=for-the-badge)](https://github.com/clcmo/MiBot/issues)
 [![GitHub donate](https://img.shields.io/github/sponsors/clcmo?color=pink&style=for-the-badge)](https://github.com/sponsors/clcmo)
 
-Description about the project
+Create a Motivational Bot for Discord, using the knowledge acquired from the [Free Bootcamp tutorial](https://www.freecodecamp.org/portuguese/news/tutorial-de-criacao-de-bot-para-o-discord-em-python/).
 
 Insert screenshot to inform what the visualization will be like
 
